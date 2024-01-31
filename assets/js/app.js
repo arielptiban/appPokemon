@@ -2,25 +2,9 @@
 
     let button = document.querySelector('button')
 
-    // if (correo.value === 'arielptiban@gmail.com') {
-
-    // } else {
-
-    //     button.addEventListener('click', () => {
-    //         correo.style.boxShadow = '0 0 10px red'
-    //         contrasena.style.boxShadow = '0 0 10px red'
-    //     });
-    // }
-
-
     button.addEventListener('click', inicio)
-    button.addEventListener('click',validar)
 
     function inicio(){
-        
-    }
-
-    function validar(){
 
         const correo = document.getElementById('correo');
         const contrasena = document.getElementById('contrasena');
@@ -31,6 +15,8 @@
             contrasena.style.boxShadow = '0 0 10px green'
 
             sessionStorage.setItem("usuario", "GrupoWeb");
+            window.location.href = './dashboard.html'
+
         }
         else{
 

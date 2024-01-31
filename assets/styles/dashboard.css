@@ -1,0 +1,23 @@
+:root {
+    --dark:  #18324D;
+    --dark-x:#244D75; 
+    --light: #ffffff;
+    --dark-y: #499AEB;
+  }
+
+  body {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--light);
+  }
+
+.bg-dark-x{
+    background-color: var(--dark-x) !important; 
+}
+.text-light{
+    color: var(--light) !important; 
+}
+
+.text-light:hover{
+    color: var(--dark-y) !important;
+}
