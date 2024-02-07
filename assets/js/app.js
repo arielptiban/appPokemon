@@ -14,7 +14,7 @@
             correo.style.boxShadow = '0 0 10px green'
             contrasena.style.boxShadow = '0 0 10px green'
 
-            sessionStorage.setItem("usuario", "GrupoWeb");
+            sessionStorage.setItem("usuario", "arielptiban@gmail.com");
             window.location.href = './dashboard.html'
 
         }

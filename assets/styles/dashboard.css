@@ -10,7 +10,7 @@
     font-family: 'Spartan', sans-serif;
     font-weight: 300;
     color: var(--light);
-    background-color:  	rgba(204, 236, 236, 1)  !important;
+    /* background-color:  	rgba(204, 236, 236, 1)  !important; */
   }
 
 .bg-dark-z{
